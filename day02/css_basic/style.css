@@ -1,0 +1,35 @@
+/* mức độ ưu tiên : id > class > tag; !important > inline > internal */
+body {
+    font-family: "Roboto";
+}
+h2  {
+    color: green;
+}
+
+#heading  {
+    color: red;
+}
+
+.title  {
+    color: yellow;
+}
+
+h2#heading  {
+    color: brown;
+}
+
+h2#heading.title    {
+    color: aqua;
+}
+
+body h2#heading.title   {
+    color: chocolate;
+}
+span {
+    color: rgb(188, 1, 1);
+    font-size: 50pt;
+}
+.star {
+    color: gold;
+    font-size: 50px;
+}

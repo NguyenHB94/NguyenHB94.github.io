@@ -1,0 +1,19 @@
+table, tr, td, th {
+    border: 1px solid black;
+
+}
+
+/* table {
+    border-collapse: collapse;
+} */
+#function {
+    text-align: center;
+}
+#pw {
+   width: 80px;
+}
+
+table {
+    font: size 13px;;
+    font-family: 'Times New Roman', Times, serif;
+}
