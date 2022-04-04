@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    text-align: left;
+    font-family: Roboto,sans-serif;
+
+}
+/* html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+} */
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;   
+    color: #212529;
+    text-align: left;
+    font-family: Roboto,sans-serif;
+}
+div {
+    background-color: #464646;
+    display: block;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container footer {
+    padding: 0;
+    max-width: 1250px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+    line-height: 2.5rem;
+    padding: 3rem 0;
+    color: #919294;
+    font-size: 14px;
+
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list {
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding-left: 0;
+    list-style: none;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    text-decoration-style: solid;
+}
+a {
+    color: #919294;
+    text-decoration: none;
+    background-color: transparent;
+   
+}
+a:hover {
+    text-decoration: underline;
+}
+.list-social-link {
+    display: flex;
+    height: 50px;
+    justify-content: flex-start;
+    margin: auto;
+    margin-block-start: 10px;
+    margin-block-end: auto;
+    font-size: 16px;
+}
+i {
+    font-size: 2em;
+    cursor: pointer;
+    margin-right: 25px;
+}
