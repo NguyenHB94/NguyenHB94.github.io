@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #111111;
+    font-size: 16px;
+}
+
+.border {
+    display: flex;
+    margin: auto;
+    width: 662px;
+    height: 668px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 10px solid #956fe5;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+    justify-content: center;
+}
+h2 {
+    font-family: Roboto,sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    line-height: 52.8px;
+    margin: 0;
+    padding: 0;
+
+}
+p.text {
+    position: relative;
+    word-wrap: break-word;
+    font-size: 16px;
+    line-height: 25.6px;
+    margin: 20px 0 0;
+    padding: 0;
+    display: block;
+}
+.form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    margin-left: -10px;
+    width: calc(100% + 10px);
+    padding: 10px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+
+input {
+    overflow: visible;
+    font: inherit;
+    margin: 0;
+}
+
+.placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 12px 10px 12px;
+    background-clip: padding-box;
+    background-image: none;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 0;
+    color: #e1e1e1;
+}   
+textarea {
+    overflow: auto;
+    font: inherit;
+    margin: 0;
+    height: 124.4px;
+}
+
+.box {
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.box a {
+    text-decoration: none;
+    color: #956fe5;
+}
+.submit {
+    font-size: 16px;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    position: relative;
+    background-color: #956fe5;
+    color: #ffffff;
+}
+
+
+

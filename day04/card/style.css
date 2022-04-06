@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+a {
+    text-decoration: none;
+    color: #464646;
+}
+
+.card {
+    width: 430px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    /* overflow: hidden; */
+}
+.year {
+    background-color: #ef5321;
+    color: #fff;
+    text-align: center;
+    padding: 6px;
+}
+
+.year p {
+    font-weight: 300;
+}
+
+.date {
+    background-color: #fe6d3f;
+    color: #fff;
+    text-align: center;
+    padding: 36px 0;
+}
+
+.date h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.content {
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+    padding: 16px 24px 0px 24px;
+    text-align: left;
+}
+
+.content h2 {
+    color: #464646;
+    margin-bottom: 7px;
+    font-size: 20.8px;
+    font-weight: 400;   
+}
+
+.info {
+    padding: 7px 0;
+    font-size: .9rem;
+    color: #464646;
+    font-weight: 400;
+    line-height: 1.8;
+    /* border-bottom: 1px solid rgba(196, 196, 196, 0.89); */
+}
+
+.form  {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 7px 0 5px 0;
+    box-sizing: border-box;
+    line-height: 24px;
+    border-top: 0.8px solid rgba(196, 196, 196, 0.89);
+}
+.form a {
+    color: blue;
+}

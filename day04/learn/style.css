@@ -1,0 +1,35 @@
+:root {
+    font-size: 14px;
+    /* đặt biến */
+    --color-text : #e41919;
+    --color-heading : #179837;
+}
+
+
+.text {
+    font-size: 2rem;
+    color: var(--color-text);
+}
+
+.box {
+    --color-heading : #696661;
+    font-size: 17px;
+    width: 50vw;
+    background-color: var(--color-heading);
+}
+
+.box p {
+    font-size: 3em;
+    color: var(--color-heading);
+}
+.parent {
+    /* width: 1000px; */
+    width: calc(100% - 200px);
+    height: 500px;
+    background-color: aqua;
+}
+.children {
+    width: 50%;
+    height: 100%;
+    background-color: orange;
+}
