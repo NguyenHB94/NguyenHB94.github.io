@@ -101,6 +101,11 @@ textarea {
     text-decoration: none;
     color: #956fe5;
 }
+
+a.submit:hover {
+    background-color: #8052e0;
+}
+
 .submit {
     font-size: 16px;
     padding: 10px 30px 10px 30px;
@@ -112,6 +117,7 @@ textarea {
     background-color: #956fe5;
     color: #ffffff;
 }
+
 
 
 
