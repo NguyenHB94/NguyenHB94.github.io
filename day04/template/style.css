@@ -84,7 +84,6 @@ input {
     background-image: none;
     border: 1px solid rgb(179, 179, 179);
     border-radius: 0;
-    color: #e1e1e1;
 }   
 textarea {
     overflow: auto;
