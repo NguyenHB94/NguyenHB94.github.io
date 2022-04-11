@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f7fa;
+    color: #464646;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    /* vertical-align: middle; */
+    /* border-style: none; */
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.list-course {
+    margin: 30px 120px 10px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: stretch;
+
+}
+
+.tech-card {
+    background-color: #fff;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    flex-basis: 30%;
+    margin-bottom: 40px;
+}
+
+.thumbnail {
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    /* height: 320px; */
+    height: 330px;
+}
+
+
+.thumbnail img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.course-info {
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 1.5rem 0;
+}
+.course-info p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.title {
+    color: #464646;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.course-description {
+    display: flex;
+    justify-content: space-between;
+    color: #757575;
+    font-size: .9rem;
+    width: 100%;
+}

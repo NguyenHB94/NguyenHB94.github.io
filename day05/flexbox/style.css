@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 600px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    color: #fff;
+    font-size: 2rem;
+    border: 1px solid #000;
+    /* line-height: 100px;
+    text-align: center; */
+}
+
+.item-1 {
+    order: 4;
+    flex-basis: 300px;
+}
+
+.item-3 {
+    order: 5;
+}
+
+.item-4 {
+    order: -1;
+}
