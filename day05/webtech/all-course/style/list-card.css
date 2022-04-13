@@ -35,14 +35,135 @@ p {
     margin-inline-end: 0px;
 }
 
+.container { 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 48px 15px;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+.choose {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.filter {
+    padding-bottom: 1.5rem;
+}
+
+.SubjectTitle {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-block-start: 0;
+}
+
+.md-radio {
+    margin-bottom: 1rem;
+}
+
+.md-radio label {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.1rem;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 0 0 0 30px;
+    position: relative;
+    vertical-align: bottom;
+    
+}
+
+input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.md-radio input[type=radio] {
+    display: none;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.md-radio label:before {
+    border: 2px solid #3c78e8;
+    height: 20px;
+    left: 0;
+    top: 0;
+    width: 20px;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    transition: all .3s ease;
+    transition-property: transform,border-color;
+}
+
+.container-list-course {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    padding-left: 1.5rem;
+
+}
+
+/* .main-search {
+    display: flex;
+    flex-direction: row;
+} */
+
+.search {
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+    outline: 0!important;
+    background-color: #fff;
+    width: 30%;
+    position: relative;
+}
+
+.search > i {
+    color: #c4c4c4;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form-control {
+    color: #5e5e5e;
+    padding: 6px 40px 6px 12px;
+    height: calc(1.5em + 0.75rem + 2px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none;
+    width: 100%;
+ 
+}
+
 .list-course {
-    margin: 30px 150px 10px 150px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: stretch;
-
+    
 }
 
 .tech-card {
@@ -62,7 +183,7 @@ p {
     overflow: hidden;
     position: relative;
     /* height: 320px; */
-    height: 330px;
+    height: 340px;
 }
 
 

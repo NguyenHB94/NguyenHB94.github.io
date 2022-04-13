@@ -52,7 +52,7 @@ footer {
     padding-right: 15px;
     padding-left: 15px;
 }
-ul {
+.list > ul {
     margin-top: 0;
     margin-bottom: 1rem;
     display: block;
