@@ -60,6 +60,10 @@ img {
     display: block;
 }
 
+/* .menu-item > .card:hover .sub-menu {
+    display: block;
+} */
+
 .sub-menu {
     position: absolute;
     right: 0 ;
@@ -106,6 +110,7 @@ img {
     height: 32px;
     border-radius: 50%;
 }
+
 
 .card {
     position: relative;
