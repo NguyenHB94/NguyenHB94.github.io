@@ -1,0 +1,75 @@
+body {
+    height: 2000px;
+}
+
+
+.box {
+    width: 200px;
+    background-color: black;
+    color: rgb(202, 86, 86);
+
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.box p {
+    transform: translateY(220px);
+
+    transition: all 1s;
+}
+
+.box:hover p {
+    transform: translateY(0);
+}
+
+.box h2 {
+    transform: translateX(-100px);
+
+    transition: all 1s;
+}
+.box:hover h2 {
+    transform: translateX(0);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.card {
+    width: 350px;
+    margin: auto;
+}
+
+.card-image {
+    overflow: hidden;
+}
+
+.card-content {
+    background-color: black;
+    color: tomato;
+    padding: 10px;
+    overflow: hidden;
+}
+ .card-content h3 {
+     transform: translateX(-350px);
+     transition: all 1s;
+ }
+
+ .card-content p {
+     transform: translateY(300px);
+     transition: all 1s;
+ }
+
+ .card:hover h3 {
+     transform: translateX(0);
+ }
+ .card:hover  p {
+    transform: translateY(0);
+}
+.card:hover  img {
+   transform: scale(1.2);
+   transition: all 1s;
+}
+
