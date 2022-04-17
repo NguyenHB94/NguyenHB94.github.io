@@ -27,6 +27,7 @@ img {
 .card-img {
     position: relative;
     display: flex;
+    height: 300px;
     
 }
 
@@ -74,11 +75,11 @@ img {
     /* left: 0;
     top: 100px; */
 }
-.container-info {
+/* .container-info {
     position: absolute;
     left: 0;
     top: 100px;
-}
+} */
 
 .card-content h2 {
     line-height: 1.5;
@@ -94,13 +95,10 @@ img {
 .card-content .description {
     color: rgb(108, 105, 105);
     font-size: 14px;
+    display: none;
 }
 
-/* .time {
-    margin: 5px 0px 20px 30px;
-    display: flex;
-    align-items: center;
-} */
+
 
 .info {
    
