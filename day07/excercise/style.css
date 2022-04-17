@@ -28,6 +28,7 @@ img {
     position: relative;
     display: flex;
     height: 300px;
+    overflow: hidden;
     
 }
 
@@ -56,6 +57,14 @@ img {
     align-items: center;
     justify-content: center;
 
+}
+.card-img img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: all 1s;
 }
 
 .date {
@@ -115,3 +124,7 @@ img {
     font-size: 13.5px;
 }
 
+.container-card:hover img {
+    transform: scale(1.2);
+    
+}
