@@ -79,15 +79,14 @@ img {
 
 .card-content {
     padding: 25px 30px 20px 25px;
-    /* position: relative; */
+    
     transition: all 0.5s;
     background-color: #fff;
 }
 
 .content-info {
     position: relative;
-    /* left: 0;
-    top: 100px; */
+   
 }
 .container-info {
     position: relative;
@@ -116,8 +115,6 @@ img {
     
 }
 
-
-
 .info {
    
     display: flex;
@@ -139,23 +136,16 @@ img {
 .container-card:hover img {
     transform: scale(1.2);
     filter: brightness(0.6);
+    
 }
 .content-title {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0;    
     height: 100%;
-    /* overflow: hidden; */
-    
-
+  
 }
 
-/* .content-title::after {
-    position: absolute;
-    content: "New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificient buildings and countless dazzling skyacrapers.";
-    color: rgb(108, 105, 105);
-    font-size: 14px;
-} */
 .container-card:hover .card-content {
     transform: translateY(-100px);
 }
@@ -168,9 +158,6 @@ img {
     z-index: 5;
 }
 
-/* .container-content {
-    overflow: hidden;
-} */
 
 .container-content {
     position: relative;
