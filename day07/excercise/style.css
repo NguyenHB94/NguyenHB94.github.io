@@ -40,10 +40,10 @@ img {
     color: #fff;
     position: absolute;
     left: -25px;
-    top: -55px;
+    bottom: calc(100% + 25px);
     transition: all 0.5;
 }
-
+ 
 .card-img .date-month {
     width: 50px;
     height: 50px;
@@ -150,14 +150,12 @@ img {
     transform: translateY(-100px);
 }
 
-
 .time {
     position: relative;
     background-color: #fff;
     overflow: hidden;
     z-index: 5;
 }
-
 
 .container-content {
     position: relative;
